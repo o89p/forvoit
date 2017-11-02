@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Forvo it!",
+  "version": "1.0",
+
+  "description": "選択した範囲の発音をforvo.comで確認できます",
+
+  "icons": {
+    "48": "icons/fi48.png"
+  },
+
+  "permissions": ["menus","tabs"],
+
+  "background": {
+  "scripts": ["fi.js"]
+}
+
+}
